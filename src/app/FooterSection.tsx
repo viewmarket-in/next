@@ -97,20 +97,19 @@ const FooterSection = () => {
   return (
     <div className=" w-full bg-popover">
       <div className=" flex w-full flex-col gap-5 ">
-        <div className="mx-auto flex w-full flex-col justify-between gap-10 px-6 py-10 text-sm sm:flex-row md:max-w-[768px] md:px-10 lg:max-w-[1024px] lg:px-16 xl:max-w-[1280px] xl:px-20 2xl:max-w-[1536px] ">
+        <div className="gradient-text-sm mx-auto flex w-full flex-col justify-between gap-10 px-6 py-10 sm:flex-row md:max-w-[768px] md:px-10 lg:max-w-[1024px] lg:px-16 xl:max-w-[1280px] xl:px-20 2xl:max-w-[1536px] ">
           <div className="">
             <span className="gradient-text">We protect your data.</span>
             <span className="text-brand"> More on Security</span>
           </div>
           <div className="flex flex-col justify-center gap-2 md:flex-row md:items-center md:gap-8">
-            <div className="flex gap-3 text-sm font-normal leading-none tracking-tight">
+            <div className="gradient-text-sm flex gap-3 font-normal leading-none tracking-tight">
               <CheckIcon />
-              SOC2 Type 2{" "}
-              <span className="text-foreground-light">Certified</span>
+              SOC2 Type 2 <span className="gradient-text-body">Certified</span>
             </div>
-            <div className="flex gap-3 text-sm font-normal leading-none tracking-tight">
+            <div className="gradient-text-sm flex gap-3 font-normal leading-none tracking-tight">
               <CheckIcon />
-              HIPAA <span className="text-foreground-light">Certified</span>
+              HIPAA <span className="gradient-text-body">Certified</span>
             </div>
           </div>
         </div>
@@ -123,7 +122,7 @@ const FooterSection = () => {
                 src={logoDark}
                 alt=""
               />
-              <div className="flex items-center gap-5  text-muted-foreground">
+              <div className="gradient-text-muted flex items-center gap-5">
                 <a
                   className=" scale-110 hover:text-brand "
                   type="button"
@@ -159,13 +158,13 @@ const FooterSection = () => {
                 {menuItems?.map((section) => (
                   <div
                     key={section.title}
-                    className="flex flex-col gap-4 text-card-foreground"
+                    className="gradient-text-body flex flex-col gap-4"
                   >
                     <h2 className="gradient-text">{section.title}</h2>
                     <ul className="flex flex-col gap-2">
                       {section.items.map((item) => (
                         <li
-                          className=" text-sm text-muted-foreground"
+                          className="gradient-text-sm"
                           key={
                             typeof item === "string"
                               ? item
@@ -179,7 +178,7 @@ const FooterSection = () => {
                           ) : "link" in item ? (
                             <a
                               href={item.link}
-                              className="hover:text-foreground"
+                              className="gradient-text-sm hover:text-foreground"
                             >
                               {item.name}
                             </a>
@@ -198,8 +197,8 @@ const FooterSection = () => {
             </nav>
           </div>
           <div className="mt-32 w-full ">
-            <div className=" border-t border-border pt-8 text-xs text-muted-foreground ">
-              © ViewMarket Inc
+            <div className="gradient-text-xs border-t border-border pt-8">
+              © ViewMarket Inc. {new Date().getFullYear()}
             </div>
           </div>
         </div>

@@ -92,14 +92,14 @@ const CustomerStoryItem = ({ logo, title }: any) => (
       {typeof logo === "object" ? <Image src={logo} alt={title} /> : logo}
     </div>
 
-    <div className="flex h-full items-center self-center text-sm font-medium text-foreground-light group-hover:text-foreground">
+    <div className="gradient-text-sm flex h-full items-center self-center font-medium group-hover:text-foreground">
       {title}
     </div>
   </div>
 );
 
 const ComparisonLink = ({ text }: any) => (
-  <a href="#" className="block text-sm text-foreground-light hover:underline">
+  <a href="#" className="gradient-text-sm block hover:underline">
     {text}
   </a>
 );
@@ -123,7 +123,9 @@ const TitleBar = () => {
                   src={logoDark}
                   alt=""
                 />
-                <span className="ml-2 text-lg font-semibold">ViewMarket</span>
+                <span className="gradient-text-lg ml-2 font-semibold">
+                  ViewMarket
+                </span>
               </div>
             </a>
 
@@ -145,10 +147,10 @@ const TitleBar = () => {
                               {item.icon}
                             </div>
                             <div>
-                              <div className="text-sm font-semibold">
+                              <div className="gradient-text-sm font-semibold">
                                 {item.title}
                               </div>
-                              <div className=" text-sm text-gray-500">
+                              <div className="gradient-text-sm">
                                 {item.description}
                               </div>
                             </div>
@@ -158,7 +160,7 @@ const TitleBar = () => {
 
                       <div className="flex-grow  bg-card p-10 ">
                         <div className="mb-6">
-                          <h3 className="mb-4 text-sm font-semibold text-gray-500">
+                          <h3 className="gradient-text-sm mb-4 font-semibold">
                             CUSTOMER STORIES
                           </h3>
                           <div className="space-y-4">
@@ -175,7 +177,7 @@ const TitleBar = () => {
                         </div>
 
                         <div>
-                          <h3 className="mb-4 text-sm font-semibold text-gray-500">
+                          <h3 className="gradient-text-sm mb-4 font-semibold">
                             COMPARE VIEWMARKET
                           </h3>
                           <div className="space-y-2">
@@ -220,7 +222,7 @@ const TitleBar = () => {
                   <MenubarContent className=" max-w-[900px]">
                     <div className=" mx-auto flex  w-full bg-card ">
                       <div className=" w-[35%] bg-background p-5">
-                        <h3 className="mb-4 text-sm font-semibold text-gray-500">
+                        <h3 className="gradient-text-sm mb-4 font-semibold">
                           DEVELOPERS
                         </h3>
                         {Developers.map((data, index) => {
@@ -239,7 +241,7 @@ const TitleBar = () => {
                       </div>
 
                       <div className="w-[35%] bg-background p-5">
-                        <h3 className="mb-4 text-sm font-semibold text-gray-500">
+                        <h3 className="gradient-text-sm mb-4 font-semibold">
                           RESOURCES
                         </h3>
                         {resources.map((data, index) => {
@@ -258,16 +260,14 @@ const TitleBar = () => {
                       </div>
 
                       <div className=" space-y-5 bg-card p-5">
-                        <h3 className="mb-4 text-sm font-semibold text-gray-500">
+                        <h3 className="gradient-text-sm mb-4 font-semibold">
                           BLOG
                         </h3>
                         {blog.map((data, index) => (
                           <div key={index}>
                             <a href="#" className="hover:text-white">
                               <h3 className="font-medium">{data.title} </h3>
-                              <p className="text-sm text-gray-400">
-                                {data.desc}
-                              </p>
+                              <p className="gradient-text-sm">{data.desc}</p>
                             </a>
                           </div>
                         ))}

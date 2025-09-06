@@ -68,14 +68,14 @@ class ChunkErrorBoundary extends Component<
         <div className="flex min-h-screen flex-col items-center justify-center p-4">
           <div className="max-w-md text-center">
             <h2 className="mb-4 text-2xl font-bold">Content Loading Issue</h2>
-            <p className="mb-4 text-muted-foreground">
+            <p className="gradient-text-muted mb-4">
               We&apos;re having trouble loading some content. This might be due
               to a network issue or a temporary problem with our servers.
             </p>
             <Button onClick={this.handleRetry} variant="default">
               Reload Page
             </Button>
-            <p className="mt-4 text-sm text-muted-foreground">
+            <p className="gradient-text-sm mt-4">
               If the problem persists, please try again later.
             </p>
           </div>

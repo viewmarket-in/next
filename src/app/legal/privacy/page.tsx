@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 
 const PrivacyPage = () => {
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="gradient-text-body min-h-screen bg-background">
       <div className="container mx-auto px-4 py-12 md:px-6 lg:px-8">
         <div className="mb-8">
           <Button variant="ghost" size="sm" asChild className="mb-6">
@@ -20,7 +20,7 @@ const PrivacyPage = () => {
         </div>
 
         <div className="prose prose-invert max-w-none">
-          <p className="mb-6 text-lg">
+          <p className="gradient-text-lg mb-8">
             Last updated:{" "}
             {new Date().toLocaleDateString("en-US", {
               year: "numeric",
@@ -32,7 +32,7 @@ const PrivacyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             1. Information We Collect
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             We collect information that you provide directly to us when you use
             our services. This includes information you provide when you create
             an account, subscribe to our services, contact us for support, or
@@ -70,7 +70,7 @@ const PrivacyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             2. How We Use Your Information
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             We use the information we collect to provide, maintain, and improve
             our services. This includes using your information to create and
             manage your account, process your payments, communicate with you
@@ -102,7 +102,7 @@ const PrivacyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             3. Information Sharing and Disclosure
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             We do not sell, trade, or otherwise transfer your personal
             information to third parties without your consent. However, we may
             share your information with trusted third parties who assist us in
@@ -133,7 +133,7 @@ const PrivacyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             4. Data Security
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             We implement appropriate technical and organizational measures to
             protect your information from unauthorized access, alteration,
             disclosure, or destruction. These measures include encryption,
@@ -161,7 +161,7 @@ const PrivacyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             5. Your Rights and Choices
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             You have certain rights regarding your personal information, subject
             to applicable laws. These rights may include the right to access,
             correct, delete, or restrict the processing of your information. You
@@ -188,7 +188,7 @@ const PrivacyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             6. Data Retention
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             We retain your information for as long as necessary to provide our
             services, comply with legal obligations, resolve disputes, and
             enforce our agreements. The retention period varies depending on the
@@ -212,7 +212,7 @@ const PrivacyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             7. International Data Transfers
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             Your information may be transferred to and processed in countries
             other than your own. These countries may have data protection laws
             that are different from those of your country. We take appropriate
@@ -235,7 +235,7 @@ const PrivacyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             8. Children&apos;s Privacy
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             Our services are not intended for children under the age of 13. We
             do not knowingly collect personal information from children under
             13. If we become aware that we have collected personal information
@@ -258,7 +258,7 @@ const PrivacyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             9. Changes to This Privacy Policy
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             We may update this Privacy Policy from time to time to reflect
             changes in our practices or for other operational, legal, or
             regulatory reasons. We will post the revised Privacy Policy on our
@@ -280,7 +280,7 @@ const PrivacyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             10. Contact Us
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             If you have any questions about this Privacy Policy or our privacy
             practices, please contact us at: ViewMarket, Inc. Email:
             privacy@viewmarket.com Address: [Company Address]. You may also

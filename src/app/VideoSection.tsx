@@ -63,43 +63,43 @@ const VideoSection = () => {
               </TabsList>{" "}
               <div className=" mt-[-4px] border border-secondary"></div>
               <TabsContent value="Table editor">
-                <div className="mt-10 flex flex-col gap-5 text-lg">
+                <div className="gradient-text-lg mt-10 flex flex-col gap-5">
                   Manage your data with the familiarity of a spreadsheet
-                  <div className=" text-base text-foreground-light">
+                  <div className="gradient-text-base">
                     You don&apos;t have to be a database expert to use
                     ViewMarket. Our table editor makes Postgres easy to use,
                     even for non-techies. You can do everything right in our
                     dashboard.
                   </div>
-                  <CardDescription className="flex items-center  gap-2 pb-5 text-sm text-foreground-light group-hover:text-foreground">
+                  <CardDescription className="gradient-text-sm flex items-center gap-2 pb-5 group-hover:text-foreground">
                     Explore Table View <GraterIcon />
                   </CardDescription>
                 </div>
               </TabsContent>
               <TabsContent value="SQL Editor">
-                <div className="mt-10 flex flex-col gap-5 text-lg">
+                <div className="gradient-text-lg mt-10 flex flex-col gap-5">
                   In-built SQL editor for when you need greater control
-                  <div className=" text-base text-foreground-light">
+                  <div className="gradient-text-base">
                     Write, save, and execute SQL queries directly on our
                     dashboard, with templates to save you time. Run common
                     queries and even build applications using our growing list
                     of templates.
                   </div>
-                  <CardDescription className="flex items-center  gap-2 pb-5 text-sm text-foreground-light group-hover:text-foreground">
+                  <CardDescription className="gradient-text-sm flex items-center gap-2 pb-5 group-hover:text-foreground">
                     Explore Table View <GraterIcon />
                   </CardDescription>
                 </div>
               </TabsContent>
               <TabsContent value="Auth rules">
-                <div className="mt-10 flex flex-col gap-5 text-lg">
+                <div className="gradient-text-lg mt-10 flex flex-col gap-5">
                   User management as straight-forward as it can be
-                  <div className=" text-base text-foreground-light">
+                  <div className="gradient-text-base">
                     Easily manage your users with ViewMarket Auth, with email
                     logins, magic links, and third-party logins. Create complex
                     access policies with SQL rules to fit your unique business
                     needs.
                   </div>
-                  <CardDescription className="flex items-center  gap-2 pb-5 text-sm text-foreground-light group-hover:text-foreground">
+                  <CardDescription className="gradient-text-sm flex items-center gap-2 pb-5 group-hover:text-foreground">
                     Explore Table View <GraterIcon />
                   </CardDescription>
                 </div>

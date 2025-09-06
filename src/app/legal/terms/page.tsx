@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 
 const TermsOfServicePage = () => {
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="gradient-text-body min-h-screen bg-background">
       <div className="container mx-auto px-4 py-12 md:px-6 lg:px-8">
         <div className="mb-8">
           <Button variant="ghost" size="sm" asChild className="mb-6">
@@ -20,7 +20,7 @@ const TermsOfServicePage = () => {
         </div>
 
         <div className="prose prose-invert max-w-none">
-          <p className="mb-6 text-lg">
+          <p className="gradient-text-lg mb-6">
             Last updated:{" "}
             {new Date().toLocaleDateString("en-US", {
               year: "numeric",
@@ -32,7 +32,7 @@ const TermsOfServicePage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             1. Acceptance of Terms
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             By accessing or using our services, you agree to be bound by these
             Terms of Service and all applicable laws and regulations. If you do
             not agree with any part of these terms, you must not use our
@@ -58,7 +58,7 @@ const TermsOfServicePage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             2. Description of Services
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             ViewMarket provides a comprehensive platform for building,
             deploying, and managing web applications and services. Our services
             include but are not limited to database management, authentication
@@ -83,7 +83,7 @@ const TermsOfServicePage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             3. User Accounts and Registration
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             To access certain features of our services, you may be required to
             create an account. You agree to provide accurate, current, and
             complete information during the registration process and to update
@@ -106,7 +106,7 @@ const TermsOfServicePage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             4. User Responsibilities
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             You are solely responsible for your use of our services and for any
             content you create, upload, or transmit through our services. You
             agree to use our services only for lawful purposes and in accordance
@@ -131,7 +131,7 @@ const TermsOfServicePage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             5. Intellectual Property Rights
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             The services and all content, features, and functionality included
             in or available through our services, including but not limited to
             text, graphics, logos, icons, images, audio clips, digital
@@ -159,7 +159,7 @@ const TermsOfServicePage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             6. Subscription and Payment Terms
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             Certain features of our services may require payment of fees. All
             fees are stated in United States dollars and are exclusive of
             applicable taxes. You are responsible for paying all taxes
@@ -183,7 +183,7 @@ const TermsOfServicePage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             7. Data Usage and Privacy
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             Our collection, use, and protection of your personal information is
             governed by our Privacy Policy, which is incorporated into these
             Terms of Service by reference. By using our services, you consent to
@@ -206,7 +206,7 @@ const TermsOfServicePage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             8. Termination
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             We may terminate or suspend your account and access to our services
             immediately, without prior notice or liability, for any reason
             whatsoever, including without limitation if you breach these Terms
@@ -227,7 +227,7 @@ const TermsOfServicePage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             9. Disclaimer of Warranties
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             Our services are provided on an &quot;as is&quot; and &quot;as
             available&quot; basis. We make no warranties, expressed or implied,
             including without limitation warranties of merchantability, fitness
@@ -247,7 +247,7 @@ const TermsOfServicePage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             10. Limitation of Liability
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             To the fullest extent permitted by applicable law, we shall not be
             liable for any indirect, incidental, special, consequential, or
             punitive damages, including without limitation, loss of profits,
@@ -273,7 +273,7 @@ const TermsOfServicePage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             11. Indemnification
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             You agree to indemnify, defend, and hold harmless ViewMarket and its
             affiliates, officers, directors, employees, agents, licensors, and
             suppliers from and against all claims, losses, expenses, damages,
@@ -295,7 +295,7 @@ const TermsOfServicePage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             12. Governing Law and Jurisdiction
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             These Terms of Service shall be governed by and construed in
             accordance with the laws of [Jurisdiction], without regard to its
             conflict of law provisions. Any dispute arising out of or relating
@@ -317,7 +317,7 @@ const TermsOfServicePage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             13. Entire Agreement
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             These Terms of Service, together with our Privacy Policy and any
             other legal notices or terms published on our website, constitute
             the entire agreement between you and ViewMarket regarding your use

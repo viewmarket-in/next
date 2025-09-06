@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 
 const RefundPolicyPage = () => {
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="gradient-text-body min-h-screen bg-background">
       <div className="container mx-auto px-4 py-12 md:px-6 lg:px-8">
         <div className="mb-8">
           <Button variant="ghost" size="sm" asChild className="mb-6">
@@ -20,7 +20,7 @@ const RefundPolicyPage = () => {
         </div>
 
         <div className="prose prose-invert max-w-none">
-          <p className="mb-6 text-lg">
+          <p className="gradient-text-lg mb-6">
             Last updated:{" "}
             {new Date().toLocaleDateString("en-US", {
               year: "numeric",
@@ -32,7 +32,7 @@ const RefundPolicyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             1. General Refund Policy
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             This Refund Policy outlines the terms and conditions under which
             refunds may be issued for our services. By using our services and
             making payments, you agree to be bound by this Refund Policy in
@@ -59,7 +59,7 @@ const RefundPolicyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             2. Subscription Service Refunds
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             For subscription-based services, we offer a limited refund period
             for new subscribers. If you are not satisfied with our subscription
             service, you may be eligible for a refund of your initial payment if
@@ -86,7 +86,7 @@ const RefundPolicyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             3. One-Time Purchase Refunds
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             For one-time purchases of services or products, we offer a limited
             refund period of thirty (30) days from the date of purchase. Refunds
             for one-time purchases are subject to review and may be denied if
@@ -110,7 +110,7 @@ const RefundPolicyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             4. Service Credit Instead of Refunds
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             In certain circumstances, we may offer service credits or account
             credits instead of cash refunds. Service credits may be issued for
             service outages, performance issues, or other service-related
@@ -132,7 +132,7 @@ const RefundPolicyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             5. Non-Refundable Items and Services
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             Certain items and services are explicitly non-refundable. These
             include but are not limited to domain registration fees, SSL
             certificate fees, third-party service fees, setup fees, installation
@@ -155,7 +155,7 @@ const RefundPolicyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             6. Refund Request Process
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             To request a refund, you must contact our customer support team
             through the official support channels provided on our website.
             Refund requests must include your account information, details of
@@ -179,7 +179,7 @@ const RefundPolicyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             7. Chargebacks and Disputes
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             Initiating chargebacks, payment disputes, or other forms of payment
             reversal with your payment provider without first attempting to
             resolve the issue through our official support channels may result
@@ -203,7 +203,7 @@ const RefundPolicyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             8. Special Circumstances and Exceptions
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             We may make exceptions to this Refund Policy in special
             circumstances at our sole discretion. Special circumstances may
             include but are not limited to service outages, billing errors, or
@@ -228,7 +228,7 @@ const RefundPolicyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             9. International Refunds and Currency
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             Refunds for customers outside the United States may be subject to
             additional processing times and fees due to currency conversion and
             international banking procedures. These fees may be deducted from
@@ -251,7 +251,7 @@ const RefundPolicyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             10. Contact Information for Refund Requests
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             For all refund requests and inquiries, please contact our customer
             support team through the following channels: Email:
             billing@viewmarket.com Phone: +1-XXX-XXX-XXXX Address: [Company

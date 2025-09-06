@@ -80,7 +80,7 @@ const CommunitySection: React.FC = () => {
       <div className="flex flex-col gap-5 pt-20">
         <div className="flex flex-col items-center gap-4">
           <div className="gradient-text text-4xl">Join the community</div>
-          <CardDescription className="text-base text-foreground-light">
+          <CardDescription className="gradient-text-base">
             Supported by a network of early advocates, contributors, and
             champions.
           </CardDescription>
@@ -92,7 +92,7 @@ const CommunitySection: React.FC = () => {
               size="sm"
             >
               Github discussions{" "}
-              <div className="pl-2 text-foreground">
+              <div className="gradient-text-body pl-2">
                 <MessageIcon />
               </div>
             </Button>
@@ -102,7 +102,7 @@ const CommunitySection: React.FC = () => {
               size="sm"
             >
               Discord{" "}
-              <div className="pl-2 text-foreground">
+              <div className="gradient-text-body pl-2">
                 <MessageIcon />
               </div>
             </Button>
@@ -126,11 +126,9 @@ const CommunitySection: React.FC = () => {
                     <TwitterIcon />
                   </div>
                 </div>
-                <div className="text-sm font-medium text-foreground">
-                  {data.name}
-                </div>
+                <div className="gradient-text-sm font-medium">{data.name}</div>
               </div>
-              <CardDescription className="text-base text-[#707070]">
+              <CardDescription className="gradient-text-base">
                 &quot;{data.desc}&quot;
               </CardDescription>
             </Card>
@@ -153,11 +151,9 @@ const CommunitySection: React.FC = () => {
                     <TwitterIcon />
                   </div>
                 </div>
-                <div className="text-sm font-medium text-foreground">
-                  {data.name}
-                </div>
+                <div className="gradient-text-sm font-medium">{data.name}</div>
               </div>
-              <CardDescription className="text-base text-[#707070]">
+              <CardDescription className="gradient-text-base">
                 &quot;{data.desc}&quot;
               </CardDescription>
             </Card>
@@ -180,11 +176,9 @@ const CommunitySection: React.FC = () => {
                     <TwitterIcon />
                   </div>
                 </div>
-                <div className="text-sm font-medium text-foreground">
-                  {data.name}
-                </div>
+                <div className="gradient-text-sm font-medium">{data.name}</div>
               </div>
-              <CardDescription className="text-base text-[#707070]">
+              <CardDescription className="gradient-text-base">
                 &quot;{data.desc}&quot;
               </CardDescription>
             </Card>
@@ -207,11 +201,9 @@ const CommunitySection: React.FC = () => {
                     <TwitterIcon />
                   </div>
                 </div>
-                <div className="text-sm font-medium text-foreground">
-                  {data.name}
-                </div>
+                <div className="gradient-text-sm font-medium">{data.name}</div>
               </div>
-              <CardDescription className="text-base text-[#707070]">
+              <CardDescription className="gradient-text-base">
                 &quot;{data.desc}&quot;
               </CardDescription>
             </Card>

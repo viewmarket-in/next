@@ -23,16 +23,16 @@ const InfrastructureSection = () => {
     <div className="  mx-auto w-full border-b border-border">
       <div className=" mx-auto flex  flex-col gap-5 px-6 pb-20 pt-48 md:max-w-[768px] lg:max-w-[1024px] lg:px-16 xl:max-w-[1280px] xl:px-20 2xl:max-w-[1536px]">
         <div className="flex w-full flex-col gap-5">
-          <div className="text-xs tracking-wider text-muted-foreground">
+          <div className="gradient-text-xs tracking-wider">
             CUSTOMER STORIES
           </div>
           <h3 className=" gradient-text text-3xl">
             Infrastructure{" "}
-            <span className="text-foreground-light">
+            <span className="gradient-text-body">
               to innovate and scale with ease.
             </span>
           </h3>
-          <div className="text-base text-foreground-light">
+          <div className="gradient-text-base">
             See how ViewMarket empowers companies of all sizes to accelerate
             their
           </div>
@@ -57,7 +57,7 @@ const InfrastructureSection = () => {
             );
           })}
         </div>
-        <CardDescription className="flex items-center  gap-2 py-5 text-sm text-foreground-light group-hover:text-foreground">
+        <CardDescription className="gradient-text-sm flex items-center gap-2 py-5 group-hover:text-foreground">
           Explore more <GraterIcon />
         </CardDescription>
       </div>

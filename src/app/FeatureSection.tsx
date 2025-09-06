@@ -40,7 +40,7 @@ function FeatureSection() {
   }) => (
     <li
       className={cn(
-        "flex gap-2 text-sm font-normal leading-none tracking-tight",
+        "gradient-text-sm flex gap-2 font-normal leading-none tracking-tight",
         className,
       )}
       {...props}
@@ -62,22 +62,22 @@ function FeatureSection() {
                 <CardTitle className=" gradient-text text-center lg:text-start">
                   Database
                 </CardTitle>
-                <CardDescription className="text-center lg:text-start">
+                <CardDescription className="gradient-text-body text-center lg:text-start">
                   Every project is a full Postgres database, the world&apos;
                   most trusted relational database.
                 </CardDescription>
               </CardHeader>
             </div>
             <ul className="hidden flex-col gap-1 pb-5 pt-10 lg:block">
-              <ListItem>
+              <ListItem className="gradient-text-sm">
                 <CheckIcon />
                 100% portable
               </ListItem>
-              <ListItem>
+              <ListItem className="gradient-text-sm">
                 <CheckIcon />
                 Built-in Auth with RLS
               </ListItem>
-              <ListItem>
+              <ListItem className="gradient-text-sm">
                 <CheckIcon />
                 Easy to extend
               </ListItem>
@@ -120,24 +120,24 @@ function FeatureSection() {
           </div>
           <div className="group mb-[-10px] flex w-full justify-between gap-4">
             <div className="ml-[-10px] flex flex-1 flex-col gap-3 ">
-              <div className="w-full rounded-r-lg border border-input bg-background px-4 py-4 text-sm text-input  ">
+              <div className="gradient-text-sm w-full rounded-r-lg border border-input bg-background px-4 py-4">
                 @gmail.com
               </div>
-              <div className="w-full rounded-r-lg border border-input bg-background px-4 py-4 text-sm text-input group-hover:border-[#3FCF8E] group-hover:text-[#3FCF8E]">
+              <div className="gradient-text-sm w-full rounded-r-lg border border-input bg-background px-4 py-4 group-hover:border-[#3FCF8E] group-hover:text-[#3FCF8E]">
                 ccess Required
               </div>
-              <div className="w-full rounded-r-lg border border-input bg-background px-4 py-4 text-sm text-input ">
+              <div className="gradient-text-sm w-full rounded-r-lg border border-input bg-background px-4 py-4">
                 7@gmail.com
               </div>
             </div>
             <div className="mr-[-10px] flex flex-1 flex-col gap-3">
-              <div className="w-full rounded-l-lg border border-input bg-background px-4 py-4 text-sm text-input ">
+              <div className="gradient-text-sm w-full rounded-l-lg border border-input bg-background px-4 py-4">
                 alex160198
               </div>
-              <div className="w-full whitespace-nowrap rounded-l-lg border border-input bg-background px-4 py-4 text-sm text-input group-hover:border-[#3FCF8E] group-hover:text-[#3FCF8E]">
+              <div className="gradient-text-sm w-full whitespace-nowrap rounded-l-lg border border-input bg-background px-4 py-4 group-hover:border-[#3FCF8E] group-hover:text-[#3FCF8E]">
                 Access Required
               </div>
-              <div className="w-full rounded-l-lg border border-input bg-background px-4 py-4 text-sm text-input ">
+              <div className="gradient-text-sm w-full rounded-l-lg border border-input bg-background px-4 py-4">
                 mememaster
               </div>
             </div>
@@ -329,18 +329,18 @@ function FeatureSection() {
                 <CardTitle className="gradient-text text-center lg:text-start">
                   Vector
                 </CardTitle>
-                <CardDescription className="text-center lg:max-w-[50%] lg:text-start">
+                <CardDescription className="gradient-text-body text-center lg:max-w-[50%] lg:text-start">
                   Integrate your favorite ML- models to store, index and search
                   vector embeddings.
                 </CardDescription>
               </CardHeader>
             </div>
             <ul className="hidden flex-col gap-2 pb-5 pt-10 lg:flex ">
-              <ListItem>
+              <ListItem className="gradient-text-sm">
                 <SunIcon className=" h-4 w-4" />
                 OpenAI
               </ListItem>
-              <ListItem>
+              <ListItem className="gradient-text-sm">
                 <SunIcon className=" h-4 w-4" />
                 Hugging Face
               </ListItem>

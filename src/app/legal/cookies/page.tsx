@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 
 const CookiesPolicyPage = () => {
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="gradient-text-body min-h-screen bg-background">
       <div className="container mx-auto px-4 py-12 md:px-6 lg:px-8">
         <div className="mb-8">
           <Button variant="ghost" size="sm" asChild className="mb-6">
@@ -20,7 +20,7 @@ const CookiesPolicyPage = () => {
         </div>
 
         <div className="prose prose-invert max-w-none">
-          <p className="mb-6 text-lg">
+          <p className="gradient-text-lg mb-6">
             Last updated:{" "}
             {new Date().toLocaleDateString("en-US", {
               year: "numeric",
@@ -32,7 +32,7 @@ const CookiesPolicyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             1. What Are Cookies
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             Cookies are small text files that are stored on your computer or
             mobile device when you visit a website. They are widely used to make
             websites work more efficiently and to provide information to the
@@ -62,7 +62,7 @@ const CookiesPolicyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             2. How We Use Cookies
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             We use cookies to enhance your experience on our website, analyze
             website traffic, remember your preferences, and improve our
             services. Cookies help us understand how visitors interact with our
@@ -88,7 +88,7 @@ const CookiesPolicyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             3. Types of Cookies We Use
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             We use several types of cookies on our website, each serving a
             different purpose. Session cookies are temporary cookies that remain
             on your device until you close your browser. They are deleted when
@@ -114,7 +114,7 @@ const CookiesPolicyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             4. Specific Cookies We Use
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             We use essential cookies to enable core functionality of our
             website, including user authentication, session management, and
             security features. These cookies are necessary for the proper
@@ -140,7 +140,7 @@ const CookiesPolicyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             5. Managing and Deleting Cookies
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             You can manage and delete cookies through your browser settings.
             Most web browsers allow you to control cookies through their
             settings preferences. You can set your browser to block or alert you
@@ -167,7 +167,7 @@ const CookiesPolicyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             6. Third-Party Cookies
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             We may use third-party services that may place cookies on your
             device when you visit our website. These third parties include
             analytics providers, social media platforms, advertising networks,
@@ -194,7 +194,7 @@ const CookiesPolicyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             7. Cookie Preferences and Consent
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             When you first visit our website, you may be presented with a cookie
             consent banner that allows you to manage your cookie preferences.
             You can choose to accept all cookies, reject non-essential cookies,
@@ -218,7 +218,7 @@ const CookiesPolicyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             8. Flash Cookies and Similar Technologies
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             We may use Flash cookies (also known as Local Shared Objects or
             LSOs) to collect and store information about your use of our
             services. Flash cookies are different from browser cookies because
@@ -243,7 +243,7 @@ const CookiesPolicyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             9. Children&apos;s Privacy and Cookies
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             Our services are not intended for children under the age of 13. We
             do not knowingly collect personal information from children under
             13, including through the use of cookies. If we become aware that we
@@ -268,7 +268,7 @@ const CookiesPolicyPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             10. Updates to This Cookies Policy
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             We may update this Cookies Policy from time to time to reflect
             changes in our practices or for other operational, legal, or
             regulatory reasons. We will post the revised Cookies Policy on our

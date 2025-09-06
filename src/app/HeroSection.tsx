@@ -17,7 +17,7 @@ const HeroSection = () => {
           Scale to millions
         </div>
       </div>
-      <CardDescription className=" mx-auto w-full text-center text-lg text-card-foreground md:w-[60%]">
+      <CardDescription className="gradient-text-lg mx-auto w-full text-center md:w-[60%]">
         ViewMarket is an open source Firebase alternative. <br /> Start your
         project with a Postgres database, Authentication, instant APIs, Edge
         Functions, Realtime subscriptions, Storage, and Vector embeddings.
@@ -34,7 +34,7 @@ const HeroSection = () => {
         </Button>
       </div>
       <div className=" flex flex-col items-center gap-3 pt-7">
-        <div className=" text-xs text-foreground-light">
+        <div className=" gradient-text-xs">
           Works seamlessly with 20+ frameworks
         </div>
         <div className=" flex justify-center gap-2">

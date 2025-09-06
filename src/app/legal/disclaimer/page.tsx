@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 
 const DisclaimerPage = () => {
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="gradient-text-body min-h-screen bg-background">
       <div className="container mx-auto px-4 py-12 md:px-6 lg:px-8">
         <div className="mb-8">
           <Button variant="ghost" size="sm" asChild className="mb-6">
@@ -20,7 +20,7 @@ const DisclaimerPage = () => {
         </div>
 
         <div className="prose prose-invert max-w-none">
-          <p className="mb-6 text-lg">
+          <p className="gradient-text-lg mb-6">
             Last updated:{" "}
             {new Date().toLocaleDateString("en-US", {
               year: "numeric",
@@ -32,7 +32,7 @@ const DisclaimerPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             1. General Disclaimer
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             The information provided on this website and through our services is
             for general informational purposes only. While we endeavor to keep
             the information up to date and correct, we make no representations
@@ -64,7 +64,7 @@ const DisclaimerPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             2. Professional Advice Disclaimer
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             The content on our website and within our services is not intended
             to be, and should not be construed as, professional advice. While we
             strive to provide accurate and helpful information, the content is
@@ -113,7 +113,7 @@ const DisclaimerPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             4. Product and Service Disclaimer
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             Our products and services are provided &quot;as is&quot; and
             &quot;as available&quot; without any warranties of any kind, either
             express or implied. We do not warrant that our products or services
@@ -137,7 +137,7 @@ const DisclaimerPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             5. Limitation of Liability
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             To the fullest extent permitted by applicable law, we shall not be
             liable for any indirect, incidental, special, consequential, or
             punitive damages, including without limitation, loss of profits,
@@ -161,7 +161,7 @@ const DisclaimerPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             6. Intellectual Property Disclaimer
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             All content, features, and functionality on our website and within
             our services, including but not limited to text, graphics, logos,
             icons, images, audio clips, digital downloads, data compilations,
@@ -186,7 +186,7 @@ const DisclaimerPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             7. External Links Disclaimer
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             Our website may contain links to external websites that are not
             provided or maintained by, or in any way affiliated with, our
             company. These links are provided for your convenience only and do
@@ -212,7 +212,7 @@ const DisclaimerPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             8. User-Generated Content Disclaimer
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             Our services may allow users to submit, post, upload, publish, or
             otherwise make available content, including but not limited to text,
             photographs, audio, video, and other materials. You are solely
@@ -236,7 +236,7 @@ const DisclaimerPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             9. Testimonials Disclaimer
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             Testimonials and endorsements provided on our website represent the
             personal opinions and experiences of the individuals who submitted
             them. These testimonials may not be representative of the typical
@@ -258,7 +258,7 @@ const DisclaimerPage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             10. Updates to This Disclaimer
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             We reserve the right to update or modify this disclaimer at any time
             without prior notice. Any changes will be effective immediately upon
             posting the revised disclaimer on our website. Your continued use of

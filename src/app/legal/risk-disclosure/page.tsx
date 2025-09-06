@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 
 const RiskDisclosurePage = () => {
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="gradient-text-body min-h-screen bg-background">
       <div className="container mx-auto px-4 py-12 md:px-6 lg:px-8">
         <div className="mb-8">
           <Button variant="ghost" size="sm" asChild className="mb-6">
@@ -20,7 +20,7 @@ const RiskDisclosurePage = () => {
         </div>
 
         <div className="prose prose-invert max-w-none">
-          <p className="mb-6 text-lg">
+          <p className="gradient-text-lg mb-6">
             Last updated:{" "}
             {new Date().toLocaleDateString("en-US", {
               year: "numeric",
@@ -32,7 +32,7 @@ const RiskDisclosurePage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             1. General Risk Disclosure
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             This Risk Disclosure Statement is designed to inform you about the
             potential risks associated with using our services and technologies.
             While we strive to provide reliable and secure services, it is
@@ -61,7 +61,7 @@ const RiskDisclosurePage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             2. Technology and System Risks
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             Our services rely on complex technology systems and infrastructure
             that may be subject to failures, interruptions, or security
             breaches. These technology-related risks include but are not limited
@@ -88,7 +88,7 @@ const RiskDisclosurePage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             3. Cybersecurity and Data Breach Risks
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             Despite implementing robust security measures, our systems and
             services may be vulnerable to cyber attacks, hacking attempts,
             malware infections, or other security breaches. These risks include
@@ -114,7 +114,7 @@ const RiskDisclosurePage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             4. Data Loss and Corruption Risks
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             While we implement backup and recovery procedures to protect your
             data, there is always a risk of data loss or corruption due to
             hardware failures, software errors, natural disasters, or other
@@ -139,7 +139,7 @@ const RiskDisclosurePage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             5. Regulatory and Compliance Risks
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             Our services and your use of them may be subject to various laws,
             regulations, and government policies that vary by jurisdiction.
             Changes in regulatory requirements or interpretations may affect the
@@ -165,7 +165,7 @@ const RiskDisclosurePage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             6. Third-Party Service Risks
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             Our services may integrate with or depend on third-party services,
             platforms, or technologies. These third-party dependencies carry
             inherent risks, including service interruptions, changes in terms of
@@ -189,7 +189,7 @@ const RiskDisclosurePage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             7. Financial and Business Risks
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             Our ability to continue providing services depends on our financial
             stability and business viability. Factors such as market conditions,
             competition, regulatory changes, or business decisions may affect
@@ -212,7 +212,7 @@ const RiskDisclosurePage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             8. Operational and Performance Risks
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             The performance of our services may vary based on factors such as
             system load, network conditions, user activity levels, and
             infrastructure capacity. During periods of high demand, service
@@ -235,7 +235,7 @@ const RiskDisclosurePage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             9. Legal and Dispute Resolution Risks
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             Legal proceedings, disputes, or regulatory actions may affect our
             ability to provide services or may result in changes to our
             operations, terms of service, or business practices. The outcome of
@@ -260,7 +260,7 @@ const RiskDisclosurePage = () => {
           <h2 className="gradient-text mb-4 mt-12 text-2xl font-semibold">
             10. User Conduct and Content Risks
           </h2>
-          <p className="mb-4">
+          <p className="gradient-text-body mb-4">
             Our services may be used by other users whose conduct or content may
             be inappropriate, offensive, or harmful. While we have policies and
             moderation systems in place, we cannot guarantee that all

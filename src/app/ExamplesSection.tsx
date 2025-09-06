@@ -61,7 +61,7 @@ const ExamplesSection = () => {
           <div className=" gradient-text text-4xl">
             Start building in seconds
           </div>
-          <CardDescription className="text-base text-foreground-light">
+          <CardDescription className="gradient-text-base">
             Kickstart your next project with templates built by us and our
             community.
           </CardDescription>
@@ -71,7 +71,7 @@ const ExamplesSection = () => {
               View all examples
             </Button>
             <Button variant="outline" className="bg-card" size="sm">
-              <div className=" pr-2 text-foreground">
+              <div className=" gradient-text-body pr-2">
                 <GithubIcon />
               </div>{" "}
               Official GitHub library
@@ -95,13 +95,13 @@ const ExamplesSection = () => {
                       {data?.icons?.map((Icon) => Icon)}
                     </div>
                   </div>
-                  <div className=" gradient-text  px-5 pt-2 text-base font-medium">
+                  <div className=" gradient-text  gradient-text-base px-5 pt-2 font-medium">
                     {data.name}
                   </div>
                   <CardDescription className=" pb-1 pl-5 pr-7">
                     &quot;{data.desc}&quot;
                   </CardDescription>
-                  <CardDescription className="flex gap-2 px-5 pb-5 text-xs group-hover:text-foreground">
+                  <CardDescription className="gradient-text-xs flex gap-2 px-5 pb-5 group-hover:text-foreground">
                     View Template{" "}
                     <span className=" ">
                       <svg

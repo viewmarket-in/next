@@ -12,7 +12,9 @@ const MobileMenu = ({ onClose }: any) => {
       <div className="flex h-14 items-center justify-between px-6">
         <div className="flex items-center">
           <Image className="h-6 w-auto" src={logoDark} alt="Logo" />
-          <span className="ml-2 text-lg font-semibold">ViewMarket</span>
+          <span className="gradient-text-lg ml-2 font-semibold">
+            ViewMarket
+          </span>
         </div>
         <Button variant="ghost" size="icon" onClick={onClose}>
           <X />

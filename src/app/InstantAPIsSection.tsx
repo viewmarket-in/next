@@ -19,26 +19,26 @@ const InstantAPIsSection = () => {
           <h3 className=" gradient-text text-2xl">
             Instant APIs that do the hard work for you
           </h3>
-          <CardDescription className=" pt-5 text-lg text-foreground-light ">
+          <CardDescription className="gradient-text-lg pt-5">
             We introspect your database to provide APIs instantly. Stop building
             repetitive CRUD endpoints and focus on your product.
           </CardDescription>
           <div className="flex w-full justify-between gap-10 pt-10">
             <div className="flex flex-col gap-2">
               <h2 className="gradient-text">TypeScript support</h2>
-              <CardDescription className="text-base text-foreground-light">
+              <CardDescription className="gradient-text-base">
                 Type definitions built directly from your database schema
               </CardDescription>
-              <CardDescription className="flex items-center  gap-2 pb-5 text-sm text-foreground-light group-hover:text-foreground">
+              <CardDescription className="gradient-text-sm flex items-center gap-2 pb-5 group-hover:text-foreground">
                 Explore more <GraterIcon />
               </CardDescription>
             </div>
             <div className="flex flex-col gap-2">
               <h2 className="gradient-text">Install from CDN</h2>
-              <CardDescription className="text-base text-foreground-light">
+              <CardDescription className="gradient-text-base">
                 Use ViewMarket in the browser without a build process
               </CardDescription>
-              <CardDescription className="flex items-center  gap-2 pb-5 text-sm text-foreground-light group-hover:text-foreground">
+              <CardDescription className="gradient-text-sm flex items-center gap-2 pb-5 group-hover:text-foreground">
                 Explore more <GraterIcon />
               </CardDescription>
             </div>
@@ -46,20 +46,20 @@ const InstantAPIsSection = () => {
           <div className="flex w-full justify-between gap-10 pt-5">
             <div className="flex flex-col gap-2">
               <h2 className="gradient-text">Local emulator</h2>
-              <CardDescription className="text-base text-foreground-light">
+              <CardDescription className="gradient-text-base">
                 Develop locally and push to production when you&apos;re
                 ready{" "}
               </CardDescription>
-              <CardDescription className="flex items-center  gap-2 pb-5 text-sm text-foreground-light group-hover:text-foreground">
+              <CardDescription className="gradient-text-sm flex items-center gap-2 pb-5 group-hover:text-foreground">
                 Explore more <GraterIcon />
               </CardDescription>
             </div>
             <div className="flex flex-col gap-2">
               <h2 className="gradient-text">ViewMarket CLI</h2>
-              <CardDescription className="text-base text-foreground-light">
+              <CardDescription className="gradient-text-base">
                 Manage ViewMarket projects from your local machine
               </CardDescription>
-              <CardDescription className="flex items-center  gap-2 pb-5 text-sm text-foreground-light group-hover:text-foreground">
+              <CardDescription className="gradient-text-sm flex items-center gap-2 pb-5 group-hover:text-foreground">
                 Explore more <GraterIcon />
               </CardDescription>
             </div>

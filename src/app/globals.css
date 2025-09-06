@@ -68,6 +68,60 @@
   @apply bg-gradient-to-br from-[#3ECF8E] via-[#3ECF8E] to-[#3ecfb2] bg-clip-text text-transparent;
 }
 
+/* Enhanced gradient text utilities for comprehensive styling */
+.gradient-text-body {
+  @apply bg-gradient-to-b from-foreground to-foreground-light bg-clip-text text-transparent;
+}
+
+.gradient-text-muted {
+  @apply bg-gradient-to-b from-foreground-light to-muted-foreground bg-clip-text text-transparent;
+}
+
+.gradient-text-card {
+  @apply bg-gradient-to-b from-card-foreground to-foreground-light bg-clip-text text-transparent;
+}
+
+.gradient-text-subtle {
+  @apply bg-gradient-to-b from-foreground via-foreground-light to-muted-foreground bg-clip-text text-transparent;
+}
+
+/* Size-specific gradient text classes */
+.gradient-text-xs {
+  @apply bg-gradient-to-b from-foreground to-foreground-light bg-clip-text text-xs text-transparent;
+}
+
+.gradient-text-sm {
+  @apply bg-gradient-to-b from-foreground to-foreground-light bg-clip-text text-sm text-transparent;
+}
+
+.gradient-text-base {
+  @apply bg-gradient-to-b from-foreground to-foreground-light bg-clip-text text-base text-transparent;
+}
+
+.gradient-text-lg {
+  @apply bg-gradient-to-b from-foreground to-foreground-light bg-clip-text text-lg text-transparent;
+}
+
+.gradient-text-xl {
+  @apply bg-gradient-to-b from-foreground to-foreground-light bg-clip-text text-xl text-transparent;
+}
+
+.gradient-text-2xl {
+  @apply bg-gradient-to-b from-foreground to-foreground-light bg-clip-text text-2xl text-transparent;
+}
+
+.gradient-text-3xl {
+  @apply bg-gradient-to-b from-foreground to-foreground-light bg-clip-text text-3xl text-transparent;
+}
+
+.gradient-text-4xl {
+  @apply bg-gradient-to-b from-foreground to-foreground-light bg-clip-text text-4xl text-transparent;
+}
+
+.gradient-text-7xl {
+  @apply bg-gradient-to-b from-foreground to-foreground-light bg-clip-text text-7xl text-transparent;
+}
+
 @font-face {
   font-family: "circular";
   src: url("/font/circular.ttf");
