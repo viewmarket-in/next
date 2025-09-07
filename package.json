@@ -19,6 +19,7 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "input-otp": "^1.2.4",
+    "lightweight-charts": "^5.0.8",
     "lucide-react": "^0.363.0",
     "next": "^15.5.2",
     "next-themes": "^0.3.0",

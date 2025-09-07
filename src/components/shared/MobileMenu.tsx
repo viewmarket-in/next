@@ -1,6 +1,7 @@
 import React from "react";
 import { X } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 import { logoDark } from "@/utils/images";
 
@@ -30,13 +31,15 @@ const MobileMenu = ({ onClose }: any) => {
         </ul>
       </nav>
       <div className="absolute bottom-0 left-0 right-0 flex gap-5 bg-background p-4">
-        <Button
-          className="w-full bg-secondary text-xs"
-          size="xs"
-          variant="outline"
-        >
-          Sign in
-        </Button>
+        <Link href="/auth" className="w-full">
+          <Button
+            className="w-full bg-secondary text-xs"
+            size="xs"
+            variant="outline"
+          >
+            Sign in
+          </Button>
+        </Link>
         <Button className="w-full text-xs" size="sm">
           Start your project
         </Button>

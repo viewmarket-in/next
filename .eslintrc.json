@@ -164,7 +164,8 @@
     "plugin:@next/next/recommended",
     "plugin:prettier/recommended",
     "plugin:@tanstack/eslint-plugin-query/recommended",
-    "prettier"
+    "prettier",
+    "eslint-config-prettier"
   ],
   "settings": {
     "react": {
@@ -224,19 +225,7 @@
       "warn",
       { "argsIgnorePattern": "^_", "varsIgnorePattern": "^_" }
     ],
-    "@typescript-eslint/member-delimiter-style": [
-      2,
-      {
-        "multiline": {
-          "delimiter": "none",
-          "requireLast": false
-        },
-        "singleline": {
-          "delimiter": "semi",
-          "requireLast": false
-        }
-      }
-    ],
+    "@typescript-eslint/member-delimiter-style": "off",
     "@typescript-eslint/no-duplicate-enum-values": "error",
     "react/no-danger": "off",
     "react/require-default-props": "off",
