@@ -30,19 +30,19 @@ export default function AuthPage() {
         <div className="mb-6 flex w-full flex-col space-y-4">
           {/* Google Sign In Button */}
           <button
-            className="w-full items-center justify-center rounded-full border border-border bg-card px-8 py-4 font-medium text-card-foreground shadow-sm transition-all duration-200 hover:bg-card/80 hover:shadow-md"
+            className="flex w-full items-center justify-center rounded-full border border-border bg-card px-8 py-4 font-medium text-card-foreground shadow-sm transition-all duration-200 hover:bg-card/80 hover:shadow-md"
             onClick={handleGoogleSignIn}
           >
-            <FcGoogle className="mr-2" />
+            <FcGoogle className="mr-2 text-lg" />
             <span>Sign in with Google</span>
           </button>
 
           {/* GitHub Sign In Button */}
           <button
-            className="w-full items-center justify-center rounded-full border border-border bg-card px-8 py-4 font-medium text-card-foreground shadow-sm transition-all duration-200 hover:bg-card/80 hover:shadow-md"
+            className="flex w-full items-center justify-center rounded-full border border-border bg-card px-8 py-4 font-medium text-card-foreground shadow-sm transition-all duration-200 hover:bg-card/80 hover:shadow-md"
             onClick={handleGitHubSignIn}
           >
-            <SiGithub className="mr-2" />
+            <SiGithub className="mr-2 text-lg" />
             <span>Sign in with GitHub</span>
           </button>
         </div>
